@@ -1,17 +1,3 @@
-/*Master Classes*/
-html {
-  scroll-behavior: smooth;
-}
-.padding-top {
-  padding-top: 2%;
-}
-.instanav {
-  padding-left: 33%;
-  color: rgba(0, 0, 0, 0.762);
-  font-size: 31px;
-}
-
-/*End Master Classes*/
 /* Home page CSS Classes*/
 .background-img {
   background-image: url(/media/WebPageBanner.jpg);
