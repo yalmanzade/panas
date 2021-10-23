@@ -2,15 +2,47 @@
 html {
   scroll-behavior: smooth;
 }
+nav {
+  margin: 0;
+  padding: 0;
+}
+.center {
+  display: flex;
+  align-items: center;
+}
+.panas-nav {
+  width: 144px;
+  height: 33px;
+  margin-top: 10px;
+}
 .padding-top {
-  padding-top: 2%;
+  padding-top: 9px;
 }
 .instanav {
   padding-left: 33%;
   color: rgba(0, 0, 0, 0.762);
   font-size: 31px;
 }
-
+.panas-logo-footer {
+  width: 191px;
+  height: 45px;
+  margin-top: 10px;
+}
+.insta-footer {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.762);
+  padding-top: 5px;
+}
+.footer-title {
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.footer-item {
+  font-size: 18px;
+}
+footer {
+  margin-top: 55px;
+}
 /*End Master Classes*/
 /* Home page CSS Classes*/
 .background-img {
@@ -25,7 +57,7 @@ html {
   filter: opacity(76%)
     linear-gradient(to bottom, rgba(255, 255, 0, 0.5), rgba(0, 0, 255, 0.5));
 }
-.introtext {
+.intro-text {
   align-items: center;
   left: 50%;
   top: 50%;
@@ -73,28 +105,32 @@ html {
 
   position: relative;
 }
-.indextext {
+.index-text {
   color: whitesmoke; /* Index Page Main Welcome Test*/
   margin-bottom: 52%;
 }
 /* Teams Page */
 .team-header {
-  font-size: 100%; /* Team Page- Name Property - CSS Rule*/
+  font-size: 22px; /* Team Page- Name Property - CSS Rule*/
   text-align: center;
 }
 .team-position {
-  font-size: 100%;
+  font-size: 20px;
   text-align: center;
+  font-weight: medium;
 }
 .team-description {
-  font-size: 96%;
+  font-size: 100%;
 }
 .team-insta {
-  font-size: 30px;
+  font-size: 32px;
   color: black;
 }
 /* End Teams Page */
 
+/*Events Classes*/
+
+/*End Event Classes*/
 /*
 <<.container {
   position: absolute;
@@ -102,3 +138,6 @@ html {
   width: auto;
 }
 */
+
+/*Story Classes*/
+/*Story Classes End*/
