@@ -1,4 +1,9 @@
 /*Master Classes*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -45,11 +50,6 @@ footer {
 }
 /*End Master Classes*/
 /* Home page CSS Classes*/
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
 .background-img {
   background-image: url(/media/WebPageBanner.jpg);
   background-repeat: no-repeat;
