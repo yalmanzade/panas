@@ -8,6 +8,10 @@
     <meta content="utf-8" http-equiv="encoding" />
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/42e7bd55fd.js"
+      crossorigin="anonymous"
+    ></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -56,10 +60,45 @@
     <main>
       <section class="padding-top">
         <h1 class="display-6 text-center">Club Events</h1>
-        <p class="container fs-4">Check out our events this semester!</p>
+        <p class="text-center container fs-4">Explore Our Events!</p>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="event-btn d-grid gap-2 col-6 mx-auto btn-lg">
+                <a href="#fall-events">
+                  <button class="btn btn-warning" type="button">
+                    <i class="fab fa-canadian-maple-leaf"></i>
+                    Fall Events
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="event-btn d-grid gap-2 col-6 mx-auto btn-lg">
+                <a href="#spring-events">
+                  <button class="btn btn-success" type="button">
+                    <i class="fas fa-fan"></i>
+                    Spring Events
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="event-btn d-grid gap-2 col-6 mx-auto btn-lg">
+                <a href="#recurring-events">
+                  <button class="btn btn-info" type="button">
+                    <i class="fas fa-calendar"></i>
+                    Recurring Events
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <section class="container">
-        <article>
+        <p class="container fs-4">Fall Events</p>
+        <article id="fall-events">
           <div class="card mb-3">
             <img
               src="/media/events/event1.jpg"
@@ -69,9 +108,9 @@
             <div class="card-body">
               <h5 class="card-title">Panas Connection</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                A celebration of Panama’s national month where students learn
+                about Panamanian celebrations and culture while having fun with
+                karaoke, Zumba and fashion shows.
               </p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
@@ -83,11 +122,75 @@
           <div class="card mb-3">
             <img src="media/events/event2.jpg" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Date with a Pana</h5>
+              <h5 class="card-title">Just Dance Competition</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Are you good at Just Dance? Come and prove it in the semester’s
+                most famous Just Dance Competition of USI. Dance, sing, enjoy,
+                and have fun while competing for the first place in this Just
+                Dance competition
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </article>
+        <article>
+          <div class="card mb-3">
+            <img src="media/events/event2.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Volleyball Tournament</h5>
+              <p class="card-text">
+                Get ready for this amazing volleyball tournament! Create your
+                own team or let us find you one and play! You will find lot of
+                prices, food, and fun!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="container">
+        <p class="container fs-4">Spring Events</p>
+        <article id="spring-events">
+          <div class="card mb-3">
+            <img
+              src="/media/events/event1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Panamanian Carnival</h5>
+              <p class="card-text">
+                <strong>COMING SOON! Spring 2022! </strong>For the first time in
+                the history of USI a Panamanian Carnival! We will celebrate the
+                carnival as if we were back in Panama! Color, music, water,
+                games, dancing, and so much fun!
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="container">
+        <p class="container fs-4">Recurring Events</p>
+        <article id="recurring-events">
+          <div class="card mb-3">
+            <img
+              src="/media/events/event1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Spanish Speaking Friends Program (SSF)</h5>
+              <p class="card-text">
+                This is a program that helps students to practice their Spanish
+                abilities while making new friends (this is not a tutoring
+                program and there are no specific hours or places stipulated)
               </p>
               <p class="card-text">
                 <small class="text-muted">Last updated 3 mins ago</small>
