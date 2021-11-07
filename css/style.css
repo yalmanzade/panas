@@ -128,6 +128,13 @@ body {
 
   position: relative;
 }
+/*Index*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  .background-img {
+    background-image: url(/media/nindex.jpg);
+  }
+}
+
 .index-text {
   color: whitesmoke; /* Index Page Main Welcome Test*/
   margin-bottom: 52%;
@@ -152,7 +159,26 @@ body {
 /* End Teams Page */
 
 /*Events Classes*/
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #justdance {
+    content: url(/media/events/mjustdance.jpg);
+  }
+  #connection {
+    content: url(/media/events/nconnection.jpg);
+  }
+  #volley {
+    content: url(/media/events/nvolley.JPG);
+  }
+  #carnaval {
+    content: url(/media/events/ncarnaval.png);
+  }
+  #speaking {
+    content: url(/media/events/nspeaking.JPG);
+  }
+  #even-tag {
+    align-self: center;
+  }
+}
 /*End Event Classes*/
 /*
 <<.container {
@@ -163,4 +189,21 @@ body {
 */
 
 /*Story Classes*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  #story-image {
+    display: none;
+  }
+  #vision-image {
+    content: url(/media/story/nvision.jpg);
+    margin-bottom: 10%;
+  }
+  #founder-image {
+    content: url(/media/story/nfounders.JPG);
+    margin-bottom: 10%;
+  }
+  #present-image {
+    content: url(/media/story/npresent.jpg);
+    margin-bottom: 10%;
+  }
+}
 /*Story Classes End*/
