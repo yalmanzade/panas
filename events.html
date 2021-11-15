@@ -73,7 +73,7 @@
         <p class="text-center container fs-4">Explore Our Events!</p>
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col-sm">
               <div class="event-btn d-grid gap-2 col-6 mx-auto btn-lg">
                 <a href="#fall-events">
                   <button id="even-tag" class="btn btn-warning" type="button">
@@ -83,22 +83,12 @@
                 </a>
               </div>
             </div>
-            <div class="col">
+            <div class="col-sm">
               <div class="event-btn d-grid gap-2 col-6 mx-auto btn-lg">
                 <a href="#spring-events">
                   <button id="even-tag" class="btn btn-success" type="button">
-                    <i class="fas fa-fan"></i>
+                    <i class="fas fa-seedling"></i>
                     Spring Events
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div class="col">
-              <div class="event-btn d-grid gap-2 col-6 mx-auto btn-lg">
-                <a href="#recurring-events">
-                  <button id="even-tag" class="btn btn-info" type="button">
-                    <i class="fas fa-calendar"></i>
-                    Recurring Events
                   </button>
                 </a>
               </div>
@@ -107,13 +97,45 @@
         </div>
       </section>
       <section class="container">
+        <p class="container fs-4">Recurring Events</p>
+        <article id="recurring-events">
+          <div class="card mb-3">
+            <img
+              id="speaking"
+              src="/media/events/ssf.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Spanish Speaking Friends Program (SSF)</h5>
+              <p class="card-text">
+                This is a program that helps students to practice their Spanish
+                abilities while making new friends (this is not a tutoring
+                program and there are no specific hours or places stipulated)
+              </p>
+              <a href="https://www.instagram.com/panas_usi/">
+                <button class="btn btn-light button btn-lg">
+                  <i class="fas fa-lightbulb"></i>
+                  Book a meeting
+                </button>
+              </a>
+              <p class="card-text">
+                <small class="text-muted">
+                  Schedule a meeting on Instagram
+                </small>
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="container">
         <p class="container fs-4">Fall Events</p>
         <article id="fall-events">
           <div class="card mb-3">
             <figure>
               <img
                 id="connection"
-                src="/media/events/event1.jpg"
+                src="/media/events/connection.jpg"
                 class="card-img-top img-fluid"
                 alt="People dancing and posing for pictures"
               />
@@ -148,7 +170,7 @@
                 Dance competition
               </p>
               <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
+                <small class="text-muted"> Last updated 3 mins ago</small>
               </p>
             </div>
           </div>
@@ -156,7 +178,7 @@
         <article>
           <div class="card mb-3">
             <img
-              src="media/events/event2.jpg"
+              src="media/events/volley.jpg"
               id="volley"
               class="card-img-top"
               alt="..."
@@ -179,12 +201,17 @@
         <p class="container fs-4">Spring Events</p>
         <article id="spring-events">
           <div class="card mb-3">
-            <img
-              id="carnaval"
-              src="/media/events/event1.jpg"
-              class="card-img-top"
-              alt="..."
-            />
+            <a
+              title="Click to see original image"
+              href="https://www.panamaequity.com/exploring-living-in-panama/celebrating-carnival-in-panama-city/"
+            >
+              <img
+                id="carnaval"
+                src="/media/events/carnival.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+            </a>
             <div class="card-body">
               <h5 class="card-title">Panamanian Carnival</h5>
               <p class="card-text">
@@ -200,33 +227,15 @@
           </div>
         </article>
       </section>
-      <section class="container">
-        <p class="container fs-4">Recurring Events</p>
-        <article id="recurring-events">
-          <div class="card mb-3">
-            <img
-              id="speaking"
-              src="/media/events/event1.jpg"
-              class="card-img-top"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Spanish Speaking Friends Program (SSF)</h5>
-              <p class="card-text">
-                This is a program that helps students to practice their Spanish
-                abilities while making new friends (this is not a tutoring
-                program and there are no specific hours or places stipulated)
-              </p>
-              <p class="card-text">
-                <small class="text-muted">Last updated 3 mins ago</small>
-              </p>
-            </div>
-          </div>
-        </article>
-      </section>
     </main>
     <footer class="container text-center padding-top">
-      <span class="text-secondary"> Made with Love by Yosep Almanza! </span>
+      <a href="https://www.instagram.com/panas_usi/">
+        <img
+          class="img-fluid footer-banner"
+          src="/media/panasbanner.png"
+          alt="Panas Banner"
+        />
+      </a>
     </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
